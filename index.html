@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <button class="icon-btn menu-btn">
+          <i class="svg-icon fa-solid fa-bars main-menu"></i>
+        </button>
+
+        <a href="#" class="logo-link">
+          <div class="logo-wrapper">
+            <i class="svg-icon fa-brands fa-youtube yt-icon"></i>
+            <span class="logo-text">YouTube</span>
+            <span class="country-badge">NP</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="header-center">
+        <form class="search-form">
+          <div class="search-input-box">
+            <input type="text" class="search-input" placeholder="Search" />
+          </div>
+          <button type="submit" class="search-btn">
+            <i class="svg-icon fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <button class="icon-btn mic-btn">
+          <i class="svg-icon fa-solid fa-microphone"></i>
+        </button>
+      </div>
+
+      <div class="header-right">
+        <button class="create-btn">
+          <i class="svg-icon fa-solid fa-plus"></i>
+
+          <span>Create</span>
+        </button>
+
+        <button class="icon-btn btn-bell">
+          <i class="svg-icon fa-solid fa-bell"></i>
+          <span class="notification-badge">9+</span>
+        </button>
+
+        <a href="#" class="profile-link">
+          <img
+            src="images/avatars/user.jpg"
+            alt="User Profile"
+            class="profile-img"
+          />
+        </a>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <!-- Primary Navigation -->
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-link active">
+          <i class="svg-icon fa-solid fa-house sidebar-icon"></i>
+          <span class="sidebar-label">Home</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-guitar"></i>
+          <span class="sidebar-label">Shorts</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-brands fa-stripe-s"></i>
+          <span class="sidebar-label">Subscription</span>
+        </a>
+      </div>
+
+      <!-- Personal Section -->
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-heading-link">
+          <h4 class="sidebar-section-title">You</h4>
+          <i class="svg-icon fa-solid fa-chevron-right chevron-icon"></i>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-clock-rotate-left"></i>
+          <span class="sidebar-label">History</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-list"></i>
+          <span class="sidebar-label">Playlist</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-film"></i>
+          <span class="sidebar-label">Your Videos</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-graduation-cap"></i>
+          <span class="sidebar-label">Your Courses</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-rotate"></i>
+          <span class="sidebar-label">Watch Later</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-thumbs-up"></i>
+          <span class="sidebar-label">Liked Videos</span>
+        </a>
+      </div>
+
+      <!-- Subscription Section -->
+      <div class="sidebar-section">
+        <h4 class="sidebar-section-title">Subscriptions</h4>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-1.jpg"
+            alt="FrontendFlow"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">FrontendFlow</span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-2.jpg"
+            alt="DevPulse"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">DevPulse</span>
+          <span class="live-dot"></span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-3.jpg"
+            alt="Pixel & Pine"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">Pixel & Pine</span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-4.jpg"
+            alt="Himal Rides"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">Himal Rides</span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-5.jpg"
+            alt="CodeCreate"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">CodeCreate</span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <img
+            src="images/avatars/av-6.jpg"
+            alt="Lofi Lounge"
+            class="channel-pic-sm"
+          />
+          <span class="sidebar-label">Lofi Lounge</span>
+          <span class="live-dot"></span>
+        </a>
+        <a href="#" class="sidebar-link sub-link">
+          <i class="svg-icon fa-solid fa-chevron-down"></i>
+          <span class="sidebar-label">Show more</span>
+        </a>
+      </div>
+
+      <!-- Explore  Section -->
+      <div class="sidebar-section">
+        <h4 class="sidebar-section-title">Explore</h4>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-pen"></i>
+          <span class="sidebar-label">Trending</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-bag-shopping"></i>
+          <span class="sidebar-label">Shopping</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-music"></i>
+          <span class="sidebar-label">Music</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-clapperboard"></i>
+          <span class="sidebar-label">Movies</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-circle-play"></i>
+          <span class="sidebar-label">Live</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-gamepad"></i>
+          <span class="sidebar-label">Gaming</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-regular fa-newspaper"></i>
+          <span class="sidebar-label">News</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-trophy"></i>
+          <span class="sidebar-label">Sports</span>
+        </a>
+      </div>
+
+      <!-- More Section -->
+      <div class="sidebar-section">
+        <h4 class="sidebar-section-title">More from YouTube</h4>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-circle-play yt-red-icon"></i>
+          <span class="sidebar-label">YouTube Premium</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-house-chimney yt-red-icon"></i>
+          <span class="sidebar-label">YouTube Studio</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-record-vinyl yt-red-icon"></i>
+          <span class="sidebar-label">YouTube Music</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-child yt-red-icon"></i>
+          <span class="sidebar-label">YouTube Kids</span>
+        </a>
+      </div>
+
+      <!-- Setting -->
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-gear"></i>
+          <span class="sidebar-label">Settings</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-flag"></i>
+          <span class="sidebar-label">Report History</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-circle-question"></i>
+          <span class="sidebar-label">Help</span>
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="svg-icon fa-solid fa-comment-dots"></i>
+          <span class="sidebar-label">Send feedback</span>
+        </a>
+      </div>
+
+      <!-- Sidebar Footer Links -->
+      <div class="sidebar-footer">
+        <div class="footer-links">
+          <a href="#">About</a>
+          <a href="#">Press</a>
+          <a href="#">Copyright</a>
+          <a href="#">Contact us</a>
+          <a href="#">Creator</a>
+          <a href="#">Advertise</a>
+          <a href="#">Developers</a>
+        </div>
+        <div class="footer-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Policy & Safety</a>
+          <a href="#">How YouTube works</a>
+          <a href="#">Test new features</a>
+        </div>
+        <p class="copyright-text">&copy; 2026 YouTube LLC Clone</p>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <nav class="chips-bar">
+        <button class="chip active">All</button>
+        <button class="chip">Music</button>
+        <button class="chip">Gaming</button>
+        <button class="chip">Live</button>
+        <button class="chip">Web Development</button>
+        <button class="chip">JavaScript</button>
+        <button class="chip">CSS</button>
+        <button class="chip">Podcast</button>
+        <button class="chip">Motorcycles</button>
+        <button class="chip">Travel</button>
+        <button class="chip">Lo-fi</button>
+        <button class="chip">F1</button>
+        <button class="chip">Mixes</button>
+        <button class="chip">Recently uploaded</button>
+        <button class="chip">Watched</button>
+        <button class="chip">New to you</button>
+      </nav>
+
+      <!-- Video grid -->
+      <section class="video-grid">
+        <!-- VIDEO Card 1 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-1.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">38:12</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-1.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Build a Netflix Landing Page with HTML & CSS only</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">FrontendFlow</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">482K viesw | 3 days ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 2 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-2.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">20:05</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-2.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >CSS Grid Explained in 20 minutes - Build Any Layout Easily</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">DevPulse</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">1.2M views | 1 year ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 3 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-3.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration live-badge">• LIVE</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-3.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Lofi beats to code / study to 24/7 chill radio & ambient
+                  music</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Lofi Lounge</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">8.4K watching</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 4 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-4.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">24:48</span>
+            <!-- Watch progress -->
+            <div class="watch-progress-bar">
+              <div class="progress-filled" style="width: 62%"></div>
+            </div>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-4.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Riding to the Himalayas on a 150cc - Day 5: The Hardes Road
+                  Yet</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Himal Rides</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">96K views | 2 weeks ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 5 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-5.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">1:02:33</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-5.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Learn JavaScript in 1 Hour - Complete Beginner Crash
+                  Course</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">CodeCreate</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">2.8M views | 8 months ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 6 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-6.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">12:47</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-1.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >10 VS Code Extensions That Will Make You a Faster
+                  Developer</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Pixel & Pine</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">318K views | 5 days ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 7 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-7.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">45:30</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-1.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Spotify Homepage UI Clone - HTML & CSS Tutorial for
+                  Beginners</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">FrontendFlow</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">215K views | 1 week ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 8 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-8.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">15:21</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-2.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >What Actually Happens When You Type a URL? The Full Story</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">DevPulse</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">940K views | 2 years ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- Shorts -->
+        <section class="shorts-shelf">
+          <div class="shorts-header">
+            <div class="shorts-title-wrapper">
+              <i class="fa-solid fa-guitar shorts-red-icon"></i>
+              <span class="shorts-header-text">Shorts</span>
+            </div>
+          </div>
+
+          <div class="shorts-row">
+            <!-- Short-1 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-1.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">This CSS trick is illegal</a>
+                </h4>
+                <p class="short-views">2.1M views</p>
+              </div>
+            </article>
+
+            <!-- Short-2 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-2.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">Centering a div in 3 line of code</a>
+                </h4>
+                <p class="short-views">845K views</p>
+              </div>
+            </article>
+
+            <!-- Short-3 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-3.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">Sunrise ride at 5 AM</a>
+                </h4>
+                <p class="short-views">313K views</p>
+              </div>
+            </article>
+
+            <!-- Short-4 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-4.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">Street food in Kathmandu</a>
+                </h4>
+                <p class="short-views">1.4M views</p>
+              </div>
+            </article>
+
+            <!-- Short-5 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-5.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">Piano cover in 30 seconds</a>
+                </h4>
+                <p class="short-views">540K views</p>
+              </div>
+            </article>
+
+            <!-- Short-6 -->
+            <article class="short-card">
+              <a href="#" class="short-thumbnail-wrapper">
+                <img
+                  src="images/shorts/short-6.jpg"
+                  alt="This CSS trick is illegal"
+                  class="short-img"
+                />
+                <button class="shorts-dots-btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </a>
+              <div class="short-details">
+                <h4 class="short-title">
+                  <a href="#">Ship your first project today</a>
+                </h4>
+                <p class="short-views">91K views</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- VIDEO Card 9 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-9.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">52:18</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-5.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Build a Stunning Developer Portfolio Website From Scratch</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">CodeCreate</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">667K views | 4 montsh ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 10 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-10.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">9:14</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-6.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Flexbox in 9 Minutes - Stop Guessing, Start Aligning</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Pixel & Pine</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">128K views | 3 weeks ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 11 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-11.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">18:36</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-2.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >How to StartFreelancing as a Student - A Realistic 2026
+                  Roadmap</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">DevPulse</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">240K views | 6 days ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 12 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-12.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">41:09</span>
+            <div class="watch-progress-bar">
+              <div class="progress-filled" style="width: 30%"></div>
+            </div>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-1.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#">iPhone Page Clone With Pure HTML & CSS</a>
+              </h3>
+              <p class="channel-name">
+                <a href="#">FrontendFlow</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">73K views | 12 hours ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 13 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-13.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">27:55</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-7.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Git & Github for Beginners - Everythign You Need in One
+                  Video</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Gitwise</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">1.98M views | 1 years ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 14 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-14.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">16:40</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-6.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >7 CSS Animations You Can Build Without JavaScript</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Pixel & Pine</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">402K views | 2 months ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 15 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-15.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">33:27</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-5.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >I Built a SaaS in 30 Days as a Student - Here's What
+                  Happened</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">CodeCrate</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">1.1M views | 5 Months ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- VIDEO Card 16 -->
+        <article class="video-card">
+          <a href="#" class="thumbnail-wrapper">
+            <img
+              src="images/thumbnails/thumb-16.jpg"
+              alt="Build a Netflix Landing Page with HTML & CSS only"
+              class="thumbnail-img"
+            />
+            <span class="video-duration">21:03</span>
+          </a>
+          <div class="video-meta">
+            <a href="#" class="channel-avatar-link">
+              <img
+                src="images/avatars/av-4.jpg"
+                alt="FrontendFlow"
+                class="channel-avatar"
+              />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="#"
+                  >Pokhara to Mustang Solo Ride - Cinematic Travel Vlog</a
+                >
+              </h3>
+              <p class="channel-name">
+                <a href="#">Himal Rides</a>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+              </p>
+              <p class="video-stats">583K views | 1 month ago</p>
+            </div>
+            <button class="options-btn">
+              <i class="fa-solid fa-ellipsis-vertical options-icon"></i>
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
